@@ -12,7 +12,7 @@ iEx a b = a ^ b
 
 -- Writing Negative Numbers
 {- example of negative number , the (-) symbol in front of the number is 
-   called unary operator, how to work ?
+   called unary operator, how its work ?
    took "3" then applied to the operator -
 -} 
 negativeNum :: Integer
