@@ -6,10 +6,10 @@
 
 -- this two things is resulting same
 
-express1 :: Integer
+express1 :: Int
 express1 = 1 + ( 4 * 4 )
 
-express2 :: Integer
+express2 :: Int
 express2 = 1 + 4 * 4
 
 {- Haskell assigns numeric precedence values to operators, with 1 being the lowest

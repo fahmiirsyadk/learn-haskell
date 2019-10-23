@@ -8,7 +8,7 @@
 
 
 -- All element of list must be same type
-list1 :: [Integer]
+list1 :: [Int]
 list1 = [1,2,3]
 
 list2 :: [String]
@@ -22,7 +22,7 @@ list3 = []
 {- Here, the... charactes denote an enumerate . We can only see this notation for types whose elements we can enumerate 
    It make no sense for text strings, for instance there is not any sensible, general way to enumerate ["foo".."quux"]
 -}
-list4 :: [Integer]
+list4 :: [Int]
 list4 = [1..10]
 
 {-
@@ -31,7 +31,7 @@ list4 = [1..10]
    followed by the value at which to stop generating the enumeration.
 -}
 
-list5 :: [Integer]
+list5 :: [Int]
 list5 = [10,9..1]
 
 list6 :: [Double]

@@ -1,13 +1,13 @@
 -- using infix style
-add2 :: Integer -> Integer
+add2 :: Int -> Int
 add2 a = a + 2
 
 -- using prefix sytle
-addPre2 :: Integer -> Integer
+addPre2 :: Int -> Int
 addPre2 a = (+) a 2
 
 -- integer exponen
-iEx :: Integer -> Integer -> Integer
+iEx :: Int -> Int -> Int
 iEx a b = a ^ b
 
 -- Writing Negative Numbers
@@ -15,7 +15,7 @@ iEx a b = a ^ b
    called unary operator, how its work ?
    took "3" then applied to the operator -
 -} 
-negativeNum :: Integer
+negativeNum :: Int
 negativeNum = -3
 
 {- Look at this example 
@@ -30,11 +30,11 @@ negativeNum = -3
 -- how its work ? , to avoid a parsing ambigiuty. when we apply a function in haskell
 -- expression inside the parenthesis will executed first , so "3" will applied with operator "-"
 -- resulting "-3" then the (+) symbol [infix] execute two of them (two plus negative three) 
-negativePlus :: Integer
+negativePlus :: Int
 negativePlus = 2 + (-3)
 
 -- first , execute the 13 multiple by 37.
 -- second, apply "-" the result of first step
 -- execute 3 the result of second step
-advanceNegativePlus :: Integer
+advanceNegativePlus :: Int
 advanceNegativePlus = 3 + (-(13 * 37))
